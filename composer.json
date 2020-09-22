@@ -1,0 +1,39 @@
+{
+    "name": "codicastudio/adminimpersonate",
+    "description": "A random Codica Studio package.",
+    "keywords": [
+        ""
+    ],
+    "homepage": "https://github.com/codicastudio/adminimpersonate",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael J Brown",
+            "email": "mbrown@codicastudio.com",
+            "homepage": "https://codicastudio.com",
+            "role": "Developer"
+        }
+    ],
+
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "codicastudio/impersonate": "^1.4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "KABBOUCHI\\NovaImpersonate\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "KABBOUCHI\\NovaImpersonate\\ToolServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
