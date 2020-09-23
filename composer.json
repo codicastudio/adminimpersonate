@@ -1,10 +1,10 @@
 {
-    "name": "codicastudio/adminimpersonate",
+    "name": "codica-studio/adminimpersonate",
     "description": "A random Codica Studio package.",
     "keywords": [
         ""
     ],
-    "homepage": "https://github.com/codicastudio/adminimpersonate",
+    "homepage": "https://github.com/codica-studio/adminimpersonate",
     "license": "MIT",
     "authors": [
         {
@@ -17,7 +17,7 @@
 
     "require": {
         "php": "^7.4 || ^8.0",
-        "codicastudio/impersonate": "^1.4.1"
+        "codica-studio/impersonate": "^1.4.1"
     },
     "autoload": {
         "psr-4": {
