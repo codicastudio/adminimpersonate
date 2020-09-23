@@ -1,9 +1,7 @@
 {
     "name": "codica-studio/adminimpersonate",
     "description": "A random Codica Studio package.",
-    "keywords": [
-        ""
-    ],
+
     "homepage": "https://github.com/codica-studio/adminimpersonate",
     "license": "MIT",
     "authors": [
