@@ -1,8 +1,8 @@
 {
-    "name": "codica-studio/adminimpersonate",
+    "name": "codicastudio/impersonate-manager",
     "description": "A random Codica Studio package.",
 
-    "homepage": "https://github.com/codicastudio/adminimpersonate",
+    "homepage": "https://github.com/codicastudio/impersonate-manager",
     "license": "MIT",
     "authors": [
         {
@@ -15,7 +15,7 @@
 
     "require": {
         "php": "^7.4 || ^8.0",
-        "codica-studio/impersonate": "^1.4.1"
+        "codicastudio/impersonate": "^1.0"
     },
     "autoload": {
         "psr-4": {
@@ -32,6 +32,6 @@
     "config": {
         "sort-packages": true
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
